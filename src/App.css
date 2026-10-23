@@ -1538,3 +1538,37 @@ h2 em {
   font-size: 12px;
   line-height: 1.8;
 }
+
+/* Mobile overflow fix */
+.site-shell {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 760px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 14px 0;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .nav-status {
+    flex-wrap: wrap;
+  }
+
+  .hero-meta,
+  .hero-footer,
+  .section-label {
+    flex-wrap: wrap;
+  }
+
+  .specimen-visual {
+    max-width: 100%;
+  }
+}
