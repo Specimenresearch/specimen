@@ -205,11 +205,14 @@ const filteredResearchNotes = researchNotes.filter((note) => {
           SPECIMEN
         </a>
 
-        <div className="nav-links">
-          <a href="#thesis">Thesis</a>
-          <a href="#research">Research</a>
-          <a href="#protocol">Protocol</a>
-        </div>
+        
+<div className="nav-links">
+  <a href="#thesis">Thesis</a>
+  <a href="#research">Research</a>
+  <a href="/about">About</a>
+  <a href="#protocol">Protocol</a>
+</div>
+
 
         <a className="nav-status" href="#protocol">
           <span className="status-dot" />
